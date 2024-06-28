@@ -1,27 +1,26 @@
 ### Hi there 👋 I'm Shafilah
 
-<!--
-**shafilahaf/shafilahaf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+def introduce_myself():
+    shafilah = {
+        'pronouns': 'she/her',
+        'code': ['Python', 'C#'],
+        'ask_me_about': ['web development', 'tech', 'app development', 'odoo'],
+        'technologies': {
+            'back_end': ['Python', 'C#'],
+            'front_end': ['HTML', 'CSS', 'JavaScript'],
+            'database': ['PostgreSQL', 'SQL Server', 'MySQL'],
+            'framework': ['Odoo', 'Flask', 'Django', 'Bootstrap'],
+            'tools': ['VS Code', 'PyCharm', 'Postman', 'Git', 'GitHub'],
+        },
+        'architecture': ['MVC', 'RESTful API', 'SOAP', 'JSON', 'XML'],
+        'current_focus': 'odoo development',
+        'hobbies': ['reading', 'coding', 'watching movies', 'listening to music'],
+        'currently_learning': 'JavaScript',
+        'fun_fact': 'Coding is like a puzzle, you have to solve it to get the answer',
+    }
 
-Here are some ideas to get you started:
+    return shafilah
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-#### 🌱 I’m interested in 
-###### ⚡ Languages
-![image](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-
-###### ⚡ Databases
-![image](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![image](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![image](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+my_self = introduce_myself()
+print(my_self)
