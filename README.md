@@ -13,7 +13,7 @@ def introduce_myself():
             'framework': ['Odoo', 'Flask', 'Django', 'Bootstrap'],
             'tools': ['VS Code', 'PyCharm', 'Postman', 'Git', 'GitHub'],
         },
-        'architecture': ['MVC', 'RESTful API', 'SOAP', 'JSON', 'XML'],
+        'architecture': ['MVC', 'RESTful API', 'JSON', 'XML'],
         'current_focus': 'odoo development',
         'hobbies': ['reading', 'coding', 'watching movies', 'listening to music'],
         'currently_learning': 'JavaScript',
